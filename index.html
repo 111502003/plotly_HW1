@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#work2" class="icon solid fa-folder"><span>Work2</span></a>
+						<a href="#work3" class="icon solid fa-folder"><span>Work3</span></a>
+						<!--<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a>-->
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me --> 
+							<article id="home" class="panel intro">
+								<header>
+									<h1>111502003 林硯白</h1>
+									<p>期中個人作業</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Line & Scatter</h2>
+								</header>
+								<p>
+									2023全國電影分析表  資料來源:政府資料開放平台
+								</p>
+								<p>
+									資料來源:政府資料開放平台 <a href="https://data.gov.tw/dataset/94224">全國電影票房統計數據</a>
+								</p>
+								分別比較電影的上映院數、周票房變動率以及電影售票票數
+								<div id = "line_scatter"></div>
+								<!-- <section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section> -->
+							</article>
+							<article id = "work2" class = "panel">
+								<header>
+									<h2>Bar Chart</h2>
+								</header>
+								<p>
+									台灣各地空汙組成要素
+								</p>
+								<p>
+								資料來源:政府資料開放平台 <a href="https://data.gov.tw/dataset/34739">酸雨成份分析值</a>
+								</p>
+								我把資料中 各地的cl, no3, s042的質取出進行比較,觀察它們的不同
+								<div id = "barchart"></div>
+							</article>
+
+							<article id = "work3" class = "panel">
+								<header>
+									<h2>Pie Chart</h2>
+								</header>
+								<p>
+									2023電影票房數據
+								</p>
+								<p>
+								資料來源:政府資料開放平台 <a href="https://data.gov.tw/dataset/94224">全國電影票房統計數據</a>
+								</p>
+								從圖中，我們可觀察到各電影間的銷售票數以及上映的院數
+								<div id = "piechart"></div>
+							</article>
+
+								<!-- <p> -->
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+        	<script src="//unpkg.com/d3"></script>
+        	<script src = "line_scatter_final/main.js"></script>
+			<script src = "bar_chart/main.js"></script>
+			<script src = "pie_chart/main.js"></script>
+
+	</body>
+</html>
